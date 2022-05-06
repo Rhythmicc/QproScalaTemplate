@@ -1,11 +1,15 @@
 {
- "compile_tool": "scalac main.scala -d dist/",
- "compile_filename": "main.scala",
- "executable_filename": "scala -classpath dist QproScalaTemplate",
- "input_file": "dist/input.txt",
- "template_root": "template/",
- "server_target": [
-  "",
-  ""
- ]
+    "compile_tool": "scalac main.scala -d dist/",
+    "compile_filename": "main.scala",
+    "executable_filename": "scala -classpath dist QproScalaTemplate",
+    "input_file": "dist/input.txt",
+    "template_root": "template/",
+    "server_targets": [
+        {
+            "user": "",
+            "host": "",
+            "path": "",
+            "port": "22"
+        }
+    ]
 }
