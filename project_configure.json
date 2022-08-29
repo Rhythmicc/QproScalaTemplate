@@ -1,7 +1,7 @@
 {
-    "compile_tool": "scalac main.scala -d dist/",
-    "compile_filename": "main.scala",
-    "executable_filename": "scala -classpath dist QproScalaTemplate",
+    "build": "scalac main.scala -d dist/",
+    "entry_point": "main.scala",
+    "executable": "scala -classpath dist QproScalaTemplate",
     "input_file": "dist/input.txt",
     "template_root": "template/",
     "server_targets": [
